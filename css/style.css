@@ -1,0 +1,104 @@
+body{
+	background-color: #fffcfc;
+}
+
+/*carousel styles*/
+.carousel-inner{height: 100%}
+
+.carousel-item img{height: 450px}
+
+
+
+/*small devices (tablets, 767px and below)*/
+@media (max-width: 767px) {
+	.update-tab{
+		display: none !important;
+	}
+	.mo-no-show{
+		display: none;
+	}
+	.banner{
+		padding: 0px;
+	}
+	.trim{
+		margin:0px;
+	}
+}
+
+.update-list{}
+
+.update-list-item{
+	border: 1px solid rgba(0,0,0,.1); 
+	margin-bottom: 10px; 
+	border-radius: 2px; 
+	height: 100px;
+}
+
+.update-list-item img{
+	height: 100px; 
+	width: 100px;
+}
+
+.update-list-item h5{
+	padding: 5px;
+}
+
+
+section {
+	margin-bottom:10px;
+}
+
+section .about-us{
+	background-color: #fff;
+}
+
+.section-title h2 {
+	border-bottom:1px solid #eee;
+	margin-bottom:25px;
+	font-weight:700;
+	font-size:1.4rem;
+	margin-bottom:27px;
+}
+.section-title span {
+	border-bottom:1px solid rgba(0,0,0,.44);
+	display:inline-block;
+	padding-bottom:20px;
+	margin-bottom:-1px;
+	text-transform:capitalize;
+}
+.section-title span span {
+	padding-bottom:0;
+	border-bottom:0;
+}
+
+.genesis{
+	height: 520px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 2px;
+}
+
+.gen-image{}
+
+.gen-content{
+	padding: 10px;
+	text-align: auto;
+}
+
+.sub-gen{
+	height: 250px;
+	/*width: 57%;*/
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.sub-gen .gen-img{
+	height: 100px;
+}
+
+.sub-gen .gen-content{
+	height: 150px !important;
+}
+
+
+
+
+
